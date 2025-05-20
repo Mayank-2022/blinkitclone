@@ -71,52 +71,6 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Why Choose Us */}
-      <section className="mb-10">
-        <h2 className="text-xl font-bold text-gray-800 mb-6 text-center">Why Choose Us</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Fast Delivery</h3>
-            <p className="text-gray-600 text-sm">Delivery in 10 minutes, right at your doorstep</p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 className="font-semibold text-gray-800 mb-2">100% Fresh</h3>
-            <p className="text-gray-600 text-sm">Fresh produce guaranteed or we'll refund</p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 15.879A10 10 0 1120 8c-5.343 0-5.343 7.657-10 7.657-4.657 0-4.657-7.657-10-7.657 0 5.5 4.472 10 9.98 9.98.168 0 .334-.01.498-.03l.005.008z" />
-              </svg>
-            </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Wide Selection</h3>
-            <p className="text-gray-600 text-sm">Over 5000+ products to choose from</p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-              </svg>
-            </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Easy Payments</h3>
-            <p className="text-gray-600 text-sm">Multiple payment options for your convenience</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
