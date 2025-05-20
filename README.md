@@ -1,37 +1,81 @@
-# React + TypeScript + Vite
+# Blinkit Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based e-commerce web application clone built with TypeScript, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product listing with categories
+- Product detail pages
+- Shopping cart functionality with context management
+- Responsive layout with header and footer components
+- Interactive UI components including banners, buttons, and product cards
+- Smooth navigation using React Router
+- Image sliders using Swiper
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-steps to initialize the repository
-1. Clone the repository
-```bash
-git clone
-```
-2. Change directory to the cloned repository
-```bash
-cd <repository-name>
-```
-3. Install dependencies
-```bash
-npm install
-```
-4. Start the development server
-```bash
-npm run dev
-```
-5. Open your browser and navigate to `http://localhost:5173` to see the app running.
-6. To build the app for production, run:
+- Node.js (v14 or above)
+- npm (comes with Node.js)
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd blinkit-clone
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to:
+
+   ```
+   http://localhost:5173
+   ```
+
+## Building for Production
+
+To build the project for production, run:
+
 ```bash
 npm run build
 ```
-7. To preview the production build, run:
-```bash 
 
-// this is not a production bvuild of the application.
+The build output will be in the `dist` folder.
+
+## Preview Production Build
+
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
+## Linting
+
+To run ESLint and check for linting errors, run:
+
+```bash
+npm run lint
+```
+
+## Technologies Used
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Swiper
+- Lucide React (icons)
