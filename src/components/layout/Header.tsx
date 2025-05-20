@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             <div className="text-green-500 mr-2">
               <Home size={24} />
             </div>
-            <span className="font-bold text-xl text-green-500">BlinkBuy</span>
+            <span className="font-bold text-xl text-green-500">BlinkitClone</span>
           </Link>
 
           {/* Search Bar - Desktop */}

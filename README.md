@@ -6,7 +6,7 @@ A simple React-based e-commerce web application clone built with TypeScript, Vit
 
 - Product listing with categories
 - Product detail pages
-- Shopping cart functionality with context management
+- Shopping cart functionality with context management using React Context API
 - Responsive layout with header and footer components
 - Interactive UI components including banners, buttons, and product cards
 - Smooth navigation using React Router
